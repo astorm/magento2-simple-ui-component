@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+    <!-- this is an XHTML template, rendered by the UI Component system, and 
+         is here so we can data-bind a scope.  {{getName()}} style directives
+         are a feature of the XHTML rendering engine.  The 
+         <!~~ ko template: getTemplate() ~~><!~~ /ko ~~> is Knockout.js, and 
+         renders the template bound in the scope.  In this module example, the
+         {{getName()}}.{{getName()}} comes out as 
+         pulsestorm_simple.pulsestorm_simple.  Since 
+         pulsestorm_simple.pulsestorm_simple is a container node, that 
+         means the bound Knockout.js view model comes from the uiComponent
+         RequireJS module (`Magento_Ui/js/lib/core/collection`). -->
+    <h1>Hello Brave New World</h1>
+
+    <div data-bind="scope: '{{getName()}}.{{getName()}}'" class="entry-edit form-inline">
+        <!-- ko template: getTemplate() --><!-- /ko -->
+    </div>    
+    
+</div>  
