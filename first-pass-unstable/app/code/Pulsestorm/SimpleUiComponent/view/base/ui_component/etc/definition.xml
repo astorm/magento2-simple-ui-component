@@ -1,0 +1,3 @@
+<components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_definition.xsd">
+    <pulsestorm_simple class="Pulsestorm\SimpleUiComponent\Component\Simple"/>
+</components>
