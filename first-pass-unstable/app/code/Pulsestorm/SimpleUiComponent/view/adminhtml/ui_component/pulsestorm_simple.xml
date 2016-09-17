@@ -9,7 +9,7 @@
             <argument name="class" xsi:type="string">Pulsestorm\SimpleUiComponent\Model\DataProvider</argument>    
  
             <!-- redundant with the `dataSource` name -->
-            <argument name="name" xsi:type="string">hello_world_data_source</argument>
+            <argument name="name" xsi:type="string">pulsestorm_simple_data_source</argument>
  
             <!-- required: means ui components are meant to work with models -->
             <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
