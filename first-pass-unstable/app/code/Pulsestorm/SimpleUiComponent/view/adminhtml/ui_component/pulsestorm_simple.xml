@@ -1,4 +1,4 @@
-<pulsestorm_simple xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+<container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
     <argument name="data" xsi:type="array">
         <item name="template" xsi:type="string">templates/different</item>
     </argument>
@@ -19,4 +19,4 @@
         </argument>        
  
     </dataSource>
-</pulsestorm_simple>
+</container>
